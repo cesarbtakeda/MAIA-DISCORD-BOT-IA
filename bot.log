@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/kali/discord/maia/bot.py", line 2, in <module>
+    import discord
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/__init__.py", line 23, in <module>
+    from .client import *
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/client.py", line 51, in <module>
+    from .sku import SKU, Entitlement
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/sku.py", line 31, in <module>
+    from .app_commands import MissingApplicationID
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/app_commands/__init__.py", line 12, in <module>
+    from .commands import *
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/app_commands/commands.py", line 53, in <module>
+    from .models import Choice
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/app_commands/models.py", line 44, in <module>
+    from ..member import Member
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/member.py", line 33, in <module>
+    import discord.abc
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/abc.py", line 59, in <module>
+    from .voice_client import VoiceClient, VoiceProtocol
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/voice_client.py", line 35, in <module>
+    from .player import AudioPlayer, AudioSource
+  File "/home/kali/discord/maia/venv/lib/python3.13/site-packages/discord/player.py", line 29, in <module>
+    import audioop
+ModuleNotFoundError: No module named 'audioop'
