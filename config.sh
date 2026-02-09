@@ -75,13 +75,17 @@ pip install --upgrade pip
 pip install -r requirements.txt
 deactivate
 
+# 7.5 Configurar os niveis de permissão
+chmod +x stop.sh
+chmod +x clear_logs.sh
+
 # 8. Executar start.sh se existir e for executável
 if [ -x ./start.sh ]; then
     echo "Executando start.sh..."
     ./start.sh
 fi
-# 9
-chmod +x stop.sh
+
+
 
 
 $c
