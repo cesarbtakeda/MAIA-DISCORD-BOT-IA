@@ -5,7 +5,8 @@
   ```zsh
   gti clone https://github.com/cesarbtakeda/MAIA-DISCORD-BOT-IA.git
   chmod +x MAIA-DISCORD-BOT-IA/config.sh
-  sudo MAIA-DISCORD-BOT-IA/./config.sh
+  cd MAIA-DISCORD-BOT-IA/
+  sudo bash ./config.sh
   
   ```
 
