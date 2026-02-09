@@ -3,8 +3,9 @@
 ## Setup
 - Para rodar o bot execute o comando:
   ```zsh
-  chmod +x config.sh
-  sudo ./config.sh
+  gti clone https://github.com/cesarbtakeda/MAIA-DISCORD-BOT-IA.git
+  chmod +x MAIA-DISCORD-BOT-IA/config.sh
+  sudo MAIA-DISCORD-BOT-IA/./config.sh
   
   ```
 
