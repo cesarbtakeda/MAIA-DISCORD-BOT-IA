@@ -1,4 +1,12 @@
-### BOT DISCORD IA DO MAIA 
+# BOT DISCORD IA DO MAIA 
+
+## Setup
+- Para rodar o bot execute o comando:
+  ```zsh
+  chmod +x config.sh
+  sudo ./config.sh
+  
+  ```
 
 ### Prova de conceito do bot
 <img width="1270" height="168" alt="image" src="https://github.com/user-attachments/assets/7f5781ee-e8ea-4680-8c45-6a5dd3ed0b6d" />
